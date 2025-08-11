@@ -29,7 +29,7 @@ return (
       <Header />
 
       {/* Sección Hero */}
-      <section className="hero-container"> 
+      <section className="hero-container" style={{ backgroundImage: 'url(/src/assets/fondo.jpg)' }}> 
         <div className='Sec1'>
           <h1>Escucha sin límites. Prueba 1 mes de Premium Individual por $ 0.</h1>
           <p className='later'>Después, solo cuesta $ 18.500 por mes. Cancela cuando quieras.</p>

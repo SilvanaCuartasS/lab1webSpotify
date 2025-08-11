@@ -7,8 +7,10 @@ main {
 
 /* Contenedor imagen de fondo */
 .hero-container {
-  background: url('../src//assets/backback.png') no-repeat center center; 
   background-size: cover;
+  background: url('/src/assets/fondo.jpg') no-repeat center center;
+
+
   min-height: calc(100vh - 40px);
   padding: 40px;
   display: flex;
